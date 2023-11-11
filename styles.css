@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url("jgh.webp");
+    background-size: 100%;
+}
+
+.container {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #ff9f40);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #fff;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+#qrcode {
+    margin-top: 20px;
+}
+
+#qrcode img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+/* Customize the appearance of the QR code */
+#qrcode img path {
+    fill: #ff00ff; /* Change the color of the QR code shapes (paths) */
+    stroke: #00ff00; /* Change the color of the QR code lines (strokes) */
+    stroke-width: 2; /* Adjust the width of the QR code lines */
+}
